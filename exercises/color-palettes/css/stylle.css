@@ -1,5 +1,8 @@
 #storm-1{
     text-align: center;
+    font-size: 50px;
+    font-weight: 900px;
+    font-style: italic;
 }
 #storm-2{
     background-color: #001EFF;
@@ -21,6 +24,9 @@
 }
 #marron-1{
     text-align: center;
+    font-size: 50px;
+    font-weight: 900px;
+    font-style: italic;
 }
 #marron-2{
     background-color: #FF6200;
@@ -42,6 +48,9 @@
 }
 #merveil-1{
     text-align: center;
+    font-size: 50px;
+    font-weight: 900px;
+    font-style: italic;
 }
 #merveil-2{
     background-color:#1DC2FD ;
@@ -63,6 +72,9 @@
 }
 #le-soir{
     text-align: center;
+    font-size: 50px;
+    font-weight: 900px;
+    font-style: italic;
 }
 #le-soir-1{
     background-color:#230000 ;
