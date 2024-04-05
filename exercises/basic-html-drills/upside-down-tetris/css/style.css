@@ -8,7 +8,7 @@
 */
 .tetris-block {
     padding: 20px;
-    border-width: 12px;
+    border-width: 29px;
     border-style: outset;
     display:inline-block;
 }
