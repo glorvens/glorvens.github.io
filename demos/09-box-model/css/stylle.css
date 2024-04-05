@@ -1,0 +1,16 @@
+div {
+    border: 10px dashed #f2c4c4;
+    margin: 24px 0px;
+    padding: 24px;
+    background-color: rgb(210, 233, 248);
+    border-radius: 24px;
+}
+
+P{
+    /* border: 20px dotted blue; */
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: rgb(205, 225, 237);
+    border-radius: 48px;
+}
+ 
