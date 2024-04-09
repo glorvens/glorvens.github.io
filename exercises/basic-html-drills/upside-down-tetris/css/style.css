@@ -15,9 +15,72 @@
 
 .red {
     background-color: red;
-    border-color: red;
+    border-color: rgb(209, 84, 84);
 }
 .purple {
     background-color: lightpink;
-    border-color: blueviolet;
+    border-color: rgb(228, 214, 242);
+}
+.blue {
+    background-color: rgb(0, 0, 255);
+    border-color:cornflowerblue ;
+}
+.pear {
+    border-radius: 8px 50px 50px;
+}
+.white {
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(178, 179, 181) ;
+    border-radius: 50px 50px 50px;
+}
+.gunmetal{
+    background-color: #2D3142;
+    border-color:#2e313e ;
+}
+.green {
+    background-color: green;
+    border-color: aqua;
+}
+.orange {
+    background-color: orange;
+    border-color: rgb(211, 162, 70);
+}
+.lightgreen{
+    background-color: rgb(151, 217, 151);
+}
+.brown {
+    background-color: rgb(155, 92, 41);
+    border-color: rgb(207, 173, 140);
+}
+.red {
+    background-color: red;
+    border-color: rgb(209, 84, 84);
+}
+.pink {
+    background-color: rgb(245, 137, 212);
+    border-color: rgb(225, 126, 126);
+}
+.round {
+    border-radius: 50px 50px 50px ;
+}
+
+.red {
+    background-color: red;
+    border-color: rgb(209, 84, 84);
+}
+.red {
+    background-color: red;
+    border-color: rgb(209, 84, 84);
+}
+.red {
+    background-color: red;
+    border-color: rgb(209, 84, 84);
+}
+.red {
+    background-color: red;
+    border-color: rgb(209, 84, 84);
+}
+.gray {
+    background-color: rgb(163, 161, 161);
+    border-color: rgb(149, 135, 135);
 }
