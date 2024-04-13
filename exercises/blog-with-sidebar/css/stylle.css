@@ -10,6 +10,10 @@ body {
     
     
 }
+#main-content  img {
+    border-radius: 39px;
+
+}
 #grid-layout {
     display: grid;
     grid-template-columns:1fr 450px  250px 1fr;
@@ -80,8 +84,8 @@ body {
 }
 #sidebar-content h2 {
     border-bottom: 2px solid rgb(247, 234, 234);
-    /* padding-bottom: 8px;
-} */
+    /* padding-bottom: 8px;*/
+} 
 
 
 #sidebar-content ul {
