@@ -39,7 +39,7 @@
 }
 
 #left-side {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: inline-block;
     width: 66%;
     padding-left: 20px;
@@ -54,7 +54,7 @@
 
 
 #right-side {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     display: inline-block;
     width: 33%;
 
