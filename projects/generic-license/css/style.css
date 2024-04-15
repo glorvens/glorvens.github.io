@@ -6,20 +6,136 @@
 
     Good luck, and have fun!
 */
+
 #license {
     border: 3px solid black;
-    border-radius: 24px;;
+    border-radius: 24px;
     width: 700px;
+    height: 480px;
     font-family: sans-serif;
+    padding: 24px;
+    background: linear-gradient(#fcca72,#ee8f51);
+    margin-bottom: 100px;
+
+
+ }
+#dlicense {
+    color: darkblue;
+    font-family: serif;
+    padding-left: 10px;
+
 }
+#dlicense1 {
+    background-color:blue ;
+    color: white;
+    font-size: 20px;
+    text-indent: 100px;
+    padding: 13px;
+    
+}
+#address {
+    font-weight: bold;
+
+}
+
 #left-side {
     border: 3px solid red;
     display: inline-block;
     width: 66%;
+    padding-left: 20px;
 }
-#rigth-side {
+#content h1 {
+    color: blue;
+    font-family: serif;
+    padding-left: 20px;
+    font-weight:bold ;
+
+}
+
+
+#right-side {
     border: 3px solid blue;
     display: inline-block;
     width: 33%;
+
+}
+#id-and-expiration div {
+    display: inline-block;
+    padding:5px;
+    color: rgb(78, 68, 124);
+}
+#span1 {
+    color: red;
+}
+#right-side {
+    margin-left:393px ;
+   text-align: center;
+   position: relative;
+   bottom: 500px;
+   padding-left:40px;
+   
 }
 
+#small-pic {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    opacity: 0.5;
+
+       
+}
+
+#data-left {
+    position: relative;
+    left: 150px;
+    bottom: 130px;    
+}
+#data-left span {
+    color: #ff0000;
+}
+#data-left div{
+    color: blue;
+}
+
+
+#data-right {
+    position: relative;
+    left: 150px;
+    bottom: 130px;
+    margin-left: 130px;
+    bottom: 185px;
+}
+
+#data-right span {
+    color: #ff0000;
+
+}
+#data-right  div {
+    color: blue;
+}
+#signature {
+    position: relative;
+    left: 100px;
+    bottom: 130px;
+    margin-left: 130px;
+    bottom: 165px;         
+}
+#donor {
+    color: #ff0000;
+    padding-top: 25px;
+}
+
+#real-id {
+    position: relative;
+    left: 45px;
+    bottom: 18px;
+    color: white;
+    height: auto;
+    width:30px;
+    padding:4px;
+    background-color: rgb(242, 242, 71);
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-left: 90px;
+   
+}
