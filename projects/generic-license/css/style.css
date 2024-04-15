@@ -121,7 +121,8 @@
     left: 100px;
     bottom: 130px;
     margin-left: 130px;
-    bottom: 165px;         
+    bottom: 165px; 
+    font-family: cursive;        
 }
 #donor {
     color: #ff0000;
