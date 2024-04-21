@@ -11,50 +11,62 @@
 
 .card-style-1 {
     width: 350px;
+    background-color: rgb(243, 243, 243);
+    display: inline-block;
+    /* border: 3px solid black; */
+    margin: 8px;
+
 }
 
 .card-style-1 a {
-    color: black;
+    color: white;
+    font-family: sans-serif;
     text-decoration: none;
     font-size: 20px;
-    font-weight: bold;
-    background-color: rgb(5, 161, 5);
-    display: inline-block;
-    width: 100%;
-    padding: 10px;
+    background-color: rgb(10, 142, 3);
     text-align: center;
-    border: 3px solid lightcoral;
-
-    
+    display: flex;
+    width: 100%;
+    padding: 24px; 
+    justify-content: center;
    
 }
 
-#trek-card-2 img  {
-    justify-content: space-between;
-    justify-content: space-around;
+.card-style-1 p {
+    padding-left: 24px;
+    padding-right: 24px;
+    text-decoration: none;
+    opacity: 0.9;
+    
+    
+    
+}
+
+.card-style-1 img  {
+    width: 350px;
+    height:280px;
+    border-bottom: 24px;
+
+    /* display:inline-block; */
+    /* justify-content: center; */
+
 
 }
 
 .card-style-1 a:hover {
     background-color: transparent;
-    /* border: 3px solid lightcoral; */
     transition:
         background-color 0.5s,
-        color 0.5s; 
+        color 0.5s;
+
 }
 
 .card-style-1 h2 {
     background-color: white;
-    margin: 8px;
+    text-align: center;
+    margin: 24px 0px;
+    opacity:0.9;
+
+    
 }
-
-#section-1  {
-    /* margin: 48px auto; */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 46px;
-    justify-content: center;
-}
-
-
 

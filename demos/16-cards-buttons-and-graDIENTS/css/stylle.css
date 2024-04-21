@@ -68,7 +68,7 @@ body {
 
 .card a:hover {
     background-color: transparent;
-    /* border: 3px solid lightcoral; */
+
     transition:
         background-color 0.5s,
         color 0.5s; 
