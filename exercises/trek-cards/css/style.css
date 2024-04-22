@@ -11,7 +11,7 @@
 
 .card-style-1 {
     width: 350px;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(233, 241, 223);
     display: inline-block;
     /* border: 3px solid black; */
     margin: 8px;
@@ -62,9 +62,9 @@
 }
 
 .card-style-1 h2 {
-    background-color: white;
+    /* background-color: rgb(144, 161, 133); */
     text-align: center;
-    margin: 24px 0px;
+    margin: 24px;
     opacity:0.9;
 
     
