@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/9.jpg);
+}
+
+#hero {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid #333333;
+    padding: 24px;
+    gap: 24px;
+}
+.grid-gallery img {
+    width: 100%;
+}
+.grid-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    border: 10px solid #333333;
+    padding: 24px;
+}
+
+.grid-gallery  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+

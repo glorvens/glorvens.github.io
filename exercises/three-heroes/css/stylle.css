@@ -8,7 +8,7 @@ body  {
     font-family: sans-serif;
 }
 
-#hero-1 a {
+#hero-1  a {
     background-image: url("../images/football-boot.jpeg");
     height: 100vh;
     background-size: cover;
@@ -21,9 +21,14 @@ body  {
     box-shadow: inset;
 }
 
+
 #hero-1 h1 {
     padding-left: 10vw;
     font-size: 15vw;
+    background-color: aqua;
+    padding: 100px;
+    border: 3px solid black;
+    font-weight: bold;
 }
 
 .spacer {
