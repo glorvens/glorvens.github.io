@@ -48,18 +48,18 @@ body {
 }
 
 #hero a {
-    font-size: 2.5vw;
+    font-size: 3.0vw;
     display: inline-block;
+    justify-content: center;
     text-align: center;
     background: linear-gradient(red, blue);
     width: 400px;
+    height: 100px;
     border-radius: 50px;
     color: white;
     text-decoration: none;
-    padding: 24px 48px 24px;
+    padding: 20px 0px;
     margin: 5vh 15vw 0px 0px;
-    font-family: "Bebas Neue", sans-serif;
-    
     
 }
 
@@ -127,19 +127,72 @@ body {
         color 0.9s; 
 }
 
-
-.layout {
-    display: flex
-
+* {
+    box-sizing: border-box;
 }
 
-.gallery-2 {
-    display:flex;
-    gap: 24px;
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-size: cover;
+    background-color: rgb(73, 60, 86);
 }
 
-.gallery-2 img {
-    height: 500px;
-    flex: 1;
+
+.layout-gallery-2 {
+    width: 90vw;
+    max-width: 2000px;
+    margin: 48px auto;
+}
+.gallery-2  img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    padding: 24px;
+    border: 7px solid white;
+    
+}
+
+.layout-gallery-2 h1 {
+    padding-top: 24px ;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: white;
+}
+
+* 
+   {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.layout-gallery-3 {
+    max-width: 2500px;
+    margin: 48px auto;
+}
+.layout-gallery-3 img {
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.gallery-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    /* border: 10px solid white; */
+    padding: 24px;
+    gap: 34px;
+} 
+
+.gallery-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
 }
