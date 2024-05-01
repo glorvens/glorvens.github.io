@@ -211,3 +211,42 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+/* Mobile BREAKPOINT */
+@media screen and (max-width: 768px) {
+    body {
+        /* background-color: blueviolet; */
+    }
+    
+    #nav {
+        flex-direction: column;
+
+        align-items: center;
+    }
+    
+    #hero h1   {
+        font-size: 50px;
+    }
+    #hero h3 {
+        font-size: 40px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    #content-container h1  {
+        margin: 0px;
+        font-size: 32px;
+    }
+    #content-container {
+        text-align: center;
+    }
+    .three-cards,
+    .two-cards {
+        flex-direction: column;
+    }
+    .two-cards .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
