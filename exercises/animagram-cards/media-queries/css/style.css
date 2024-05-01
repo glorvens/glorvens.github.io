@@ -211,3 +211,27 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+
+@media screen and (max-width: 480px) {
+    body {
+        /* background-color: blueviolet; */
+    }
+    
+    #nav {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .social-media {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .content-container  {
+        margin: 0px;
+        font-size: 32px;
+    }
+    .content-container {
+        text-align: center;
+    }
