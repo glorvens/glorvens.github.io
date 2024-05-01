@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -33,7 +34,7 @@ body {
 }
 
 #navbar  .cta-button {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border-radius: 36px;
     padding: 16px 24px;
@@ -46,9 +47,10 @@ body {
 
 #layout {
     width: 800;
-    margin: 48px auto;
+    margin: 48px 24px;
     font-size: 24px;
     height: 200vh;
+
 }
 
 #header {
