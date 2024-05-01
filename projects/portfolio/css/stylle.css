@@ -159,6 +159,9 @@ body {
     justify-content: center;
     font-size: 80px;
     color: white;
+    background-color: rgb(15, 14, 21);
+    text-align: center;
+    padding: 24px;
 }
 
 * 
@@ -195,4 +198,15 @@ body {
     height: 100%;
     object-fit: cover;
     padding: 10px;
+}
+
+.layout-gallery-3 h1 {
+    padding-top: 24px ;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: white;
+    background-color: rgb(15, 14, 21);
+    text-align: center;
+    padding: 24px;
 }
