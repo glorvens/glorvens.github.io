@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body  {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#layout {
+    background-image:url(../0-dogs-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-1  p{
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+#hero-content {
+    display:block;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 50px;
+    font-size:30px;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    color: black;
+}
+
+#layout h1  {
+    font-size: 150px;
+   justify-content: center; 
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    color: black;
+
+}
+#layout  p {
+    font-size: 150px;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    color: black;
+    font-weight: bold;
+}
