@@ -1,57 +1,260 @@
+
 * {
-    box-sizing: border-box;
+   box-sizing: border-box
 }
 
-body  {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  margin: 0px;
+  font-family:sans-serif; 
+  min-width: 480px;
 }
 
-#layout {
-    background-image:url(../0-dogs-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
+
+
+#navbar {
+  background: linear-gradient(to bottom, #ff0000, #ff0000);
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  font-size: 30px;
+  /* border: 07px solid white; */
 }
 
-.hero-1  p{
-    font-size: 5em;
-    margin-bottom: 10px;
+#navbar a {
+  display: inline-block;
+  text-decoration:none;
+  color: white;
+  padding: 24px;
 }
 
-#hero-content {
-    display:block;
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    border-radius: 50px;
-    font-size:30px;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    right: 15%;
-    color: black;
+#navbar a:hover {
+  background: linear-gradient(to top, #109cb8, #529ed9);
 }
 
-#layout h1  {
-    font-size: 150px;
-   justify-content: center; 
-    position: absolute;
-    top: 70%;
-    right: 15%;
-    color: black;
+#navbar #logo {
+   margin-right:auto;
+   font-weight: bold;
+   font-size: 36px;
+   padding-top: 13px;
+   padding-bottom: 12px;
+}
+
+.dropdown-container {
+   position:relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  opacity:0;
+  visibility: hidden;
+  transition:0.3 ;
+  opacity:0.25s;
+  visibility:0.25s;
+
+
+  z-index: 10;
+}
+
+
+.dropdown-container:last-child .dropdown-menu {
+   right:0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+  opacity: 1;
+  visibility:visible;
+}
+
+.dropdown-menu a {
+  background-color:darkslateblue;
+  width: 100%;
+  min-width:200px;
+}
+#navbar .dropdown-menu a:hover {
+  background: slateblue;
+}
+
+#container-1 {
+  background: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg);
+  /* opacity: 0.4; */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-position: center center;
+  height: 100vh;
+  align-items: center;
+  justify-content:center ;
+}
+.content-1  h2 {
+
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 90px;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  
+}
+.content-1 p {
+  justify-content: center;
+  align-items: center;
+  text-align:left;
+  color: aliceblue;
+  font-size: 60px;
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  margin: 0px;
+  padding-right: 20vw;
+}
+
+#container-1 .content-1 a {
+   display: inline-block;
+   background-color: rgb(255, 0, 0);
+   text-decoration: none;
+   padding: 40px;
+   border-radius: 20px;
+   width: 10vw;
+   font-weight: bold;
+   font-size: 30px;
+   color: rgb(255, 253, 253);
+   text-align: center;
+   position: relative;
+   top: 50px;
+   left: 20vw;
+   margin: 24px;
+   border: 3px solid rgb(255, 0, 0);
 
 }
-#layout  p {
-    font-size: 150px;
-    justify-content: center;
-    position: absolute;
-    top: 60%;
-    right: 15%;
-    color: black;
-    font-weight: bold;
+
+#container-1 .content-1 a:hover {
+  background-color: transparent;
+
+  transition:
+      background-color 0.3s,
+      color 0.9s; 
 }
+
+    /* billy  */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  /* background: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg); */
+
+} 
+
+#center .layout-content {
+  width: 50%;
+  min-width: 480px;
+  margin: 0px auto;
+  /* background: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg); */
+  
+
+}
+
+
+.layout-content p {
+  font-size: 44px;
+  margin-top: 24px;
+  padding: 24px;
+  text-align: left;
+  font-stretch: expanded;
+  font-weight: bold;
+}
+
+.layout-content  h1 {
+  font-size: 7vw;
+  margin-left: 20vw;
+  margin-top: 5vh;
+  padding-top: 0px;
+  color: rgb(0, 0, 0);
+
+}
+
+.layout-content img {
+  width: 100%;
+  height: min-content;
+  object-fit: cover;
+  background-color: #702323;
+  padding-top: 0px;
+  border: 5px solid rgb(255, 255, 255);
+  
+}
+.spacer {
+  height: 50vh;
+  background-image: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+
+/* rocky */
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  /* background: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg); */
+
+} 
+
+#center-number-3 .layout-content-number-3 {
+  width: 50%;
+  min-width: 480px;
+  margin: 0px auto;
+  /* background: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg);
+   */
+
+}
+
+
+.layout-content-number-3 p {
+  font-size: 44px;
+  margin-top: 24px;
+  padding: 24px;
+  text-align: left;
+  font-stretch: expanded;
+  font-weight: bold;
+}
+
+.layout-content-number-3  h1 {
+  font-size: 7vw;
+  margin-left: 20vw;
+  margin-top: 5vh;
+  padding-top: 0px;
+  color: rgb(0, 0, 0);
+
+}
+
+.layout-content-number-3 img {
+  width: 100%;
+  height: min-content;
+  object-fit: cover;
+  background-color: #702323;
+  padding-top: 0px;
+  border: 5px solid rgb(255, 255, 255);
+  
+}
+
+.spacer {
+  height: 50vh;
+  background-image: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
