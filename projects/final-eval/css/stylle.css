@@ -46,6 +46,7 @@ body {
     justify-content:center;
     border: 3px solid black;;
     align-items: center;
+
 }
 
 .images p {
@@ -53,3 +54,5 @@ body {
     font-weight: bold;
     margin: 100px;
 }
+
+
