@@ -145,6 +145,8 @@ body {
 body {
   margin: 0px;
   font-family: sans-serif;
+  background: url(../images/paw.webp);
+
   /* background: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg); */
 
 } 
@@ -153,6 +155,9 @@ body {
   width: 50%;
   min-width: 480px;
   margin: 0px auto;
+  background-color: white;
+  
+  
   /* background: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg); */
   
 
@@ -166,6 +171,7 @@ body {
   text-align: left;
   font-stretch: expanded;
   font-weight: bold;
+  background-color: white;
 }
 
 .layout-content  h1 {
@@ -183,12 +189,12 @@ body {
   object-fit: cover;
   background-color: #702323;
   padding-top: 0px;
-  border: 5px solid rgb(74, 32, 32);
+  /* border: 5px solid rgb(74, 32, 32); */
   
 }
 .spacer  {
   height: 50vh;
-  background-image: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg);
+  /* background-image: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg); */
   background-size: cover;
   background-attachment: fixed;
 
@@ -198,7 +204,7 @@ body {
 
 .spacer1 {
   height: 10vh;
-  background-image: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg);
+  /* background-image: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg); */
   background-size: cover;
   background-attachment: fixed;
 
@@ -261,12 +267,53 @@ body {
 
 .spacer {
   height: 50vh;
-  background-image: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg);
+  /* background-image: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg); */
   background-size: cover;
   background-attachment: fixed;
 
 
 }
+
+#center .layout-content4 {
+  width: 50%;
+  min-width: 480px;
+  margin: 0px auto;
+  background-color: white;
+  
+  
+  /* background: url(../images/vecteezy_superpet-cat-and-dog-as-superheroes-with-cape-background_22330322.jpeg); */
+  
+
+}
+
+
+.layout-content4 p {
+  font-size: 44px;
+  margin-top: 24px;
+  padding: 24px;
+  text-align: left;
+  font-stretch: expanded;
+  font-weight: bold;
+  background-color: white;
+}
+
+.layout-content4  h1 {
+  font-size: 7vw;
+  margin-left: 20vw;
+  margin-top: 5vh;
+  padding-top: 0px;
+  color: rgb(0, 0, 0);
+
+}
+
+.layout-content4 img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+  background-color: #702323;
+  padding-top: 0px;
+  /* border: 5px solid rgb(74, 32, 32); */
+  
 
 @media screen and (max-width: 480px) {
   body {
@@ -279,15 +326,16 @@ body {
       align-items: center;
   }
   
-  .intro {
+  /* .intro {
       flex-direction: column;
       gap: 24px;
-  }
+  } */
 
-  .content-container h1 {
+  .layout-content h1 {
       margin: 0px;
       font-size: 32px;
   }
-  .content-container {
+  .center {
       text-align: center;
   }
+}
