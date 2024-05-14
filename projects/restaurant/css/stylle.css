@@ -147,6 +147,7 @@
   font-size: 18px;
   display: flex;
   justify-content: space-between;
+  margin-top: 54px;
   
 
  }
@@ -229,12 +230,15 @@ body {
 }
 
 #menu-2 {
+  display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 .contents-img  {
   display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -244,6 +248,7 @@ body {
 }
 
 .contents-img img {
+  flex: 1;
   width: 40vw;
   justify-content: center;
   align-items: center;
@@ -252,24 +257,58 @@ body {
 }
 
 .contents-img h1  {
+  flex: 1;
   font-size: 6vw;
   top: auto;
 
 }
 
 .menu-section-contents {
+  flex: 1;
   padding: 24px;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   text-align: center;
   align-items: center;
   font-size: 45px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 
 }
 
 #menu-section-3 {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center left;
 }
+ .contents-img a {
+  display: inline;
+  padding: 24px;
+  width: 10vw;
+  border: 3px solid rgb(255, 255, 255);
+  position:absolute;
+  top:60vh;
+  color: white;
+  background-color: rgb(98, 6, 6);
+  font-size: 2vw;
+  border-radius: 50px;
+  margin-bottom: 24px;
+
+ }
+
+ .menu-section-contents p {
+  text-align: justify;
+  margin-left: 17vw;
+  margin-right: 13vw;
+  padding: 0px;
+
+ }
+
+ .menu-section-contents h1 {
+  justify-content: center;
+  text-align: center;
+  margin-left: 17vw;
+  margin-right: 13vw;
+  padding: 0px;
+  font-size: 2vw;
+ }
