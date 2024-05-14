@@ -7,12 +7,13 @@ body {
 }
 
 #centered-column {
-    background-color: aqua;
     width: 50%;
     min-height: 500px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
+    border: 10px solid black;
+    background:linear-gradient(rgb(166, 115, 115), rgb(128, 128, 176));
 }
 
 #centered-column .contents  {
@@ -44,7 +45,6 @@ body {
     display:flex;
     flex-direction:row;
     justify-content:center;
-    border: 3px solid black;;
     align-items: center;
 
 }
@@ -55,4 +55,105 @@ body {
     margin: 100px;
 }
 
+.date {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(234, 184, 70);
+    padding: 20px;
+    width:24vw;
+    margin-left: auto;
+    margin-right: auto;margin-top: 34px;
+    background-color: rgb(47, 1, 1);
+}
 
+
+.join-us {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 24px;
+    width:35vw;
+    margin-left: auto;
+    margin-right: auto;margin-top: 34px;
+}
+
+.date {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(234, 184, 70);
+    padding: 20px;
+    width:26vw;
+    margin-left: auto;
+    margin-right: auto;margin-top: 34px;
+    background-color: rgb(47, 1, 1);
+}
+
+.food {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+    width:35vw;
+    margin-left: auto;
+    margin-right: auto;margin-top: 34px;
+}
+
+.location {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+    width:15vw;
+    margin-left: auto;
+    margin-right: auto;margin-top: 34px;
+    margin-bottom: 100px;
+}
+
+.rsvp-button  {
+    display: inline-block;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.rsvp-button a {
+    font-size: 35px;
+    font-weight: bold;
+    border: 3px solid black;
+    color: white;
+    background-color: rgb(147, 8, 8);
+    padding: 24px;
+    margin: 2vw;
+    text-decoration: none;
+}
+
+.questions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.questions p {
+    margin-bottom: 20vh;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
